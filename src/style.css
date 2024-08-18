@@ -1,8 +1,61 @@
-h1 {
+body {
+  background-color: #1b1b1b;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
 }
-p {
+
+.hero {
+  background-image: url("images/shelly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #ffffff;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  padding-top: 200px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  margin: 25px auto;
+}
+
+.hero p {
+  margin: auto 350px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero a {
+  color: #1b1b1b;
+  background-color: #ffffff;
+  border-radius: 50px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 40px;
+  letter-spacing: 2px;
+  margin: 48px auto 200px;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero p {
+    margin: auto 10px;
+  }
+
+  .hero a {
+    margin: 15px auto 20px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 }
