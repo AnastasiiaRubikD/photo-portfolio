@@ -3,6 +3,31 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  margin-right: 130px;
+}
+h3 {
+  color: #f65282;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+span p {
+  text-align: center;
+  margin-right: 0px;
+}
+.container-fluid {
+  max-width: 1650px;
+}
+
+.background img {
+  max-height: 800px;
+}
 .hero {
   background-image: url("images/shelly.jpg");
   background-size: cover;
@@ -10,6 +35,7 @@ body {
   background-position: top center;
   color: #ffffff;
   text-align: center;
+  width: 100%;
 }
 .hero h2 {
   font-size: 24px;
@@ -18,20 +44,19 @@ body {
   padding-top: 200px;
 }
 
-.hero h1 {
+h1 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 2.8px;
   margin: 25px auto;
+  color: #ffffff;
 }
 
 .hero p {
   margin: auto 350px;
-  font-size: 18px;
-  line-height: 30px;
 }
 
-.hero a {
+.but-link {
   color: #1b1b1b;
   background-color: #ffffff;
   border-radius: 50px;
@@ -43,9 +68,42 @@ body {
   margin: 48px auto 200px;
 }
 
-@media (max-width: 900px) {
-  .hero h1 {
-    font-size: 32px;
+.about h2 {
+  font-size: 18px;
+  color: #f65282;
+  letter-spacing: 2.8px;
+}
+
+.about h1 {
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 2.8px;
+}
+
+.social-media-icon i {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.camera-info {
+  display: inline-block;
+  background-color: #2d2727;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+}
+.camera-info img {
+  display: inline;
+  padding: 10px 10px 10px 0px;
+}
+
+@media (max-width: 1000px) {
+  h1,
+  .about h1 {
+    font-size: 42px;
   }
   .hero p {
     margin: auto 10px;
@@ -57,5 +115,21 @@ body {
   img {
     display: block;
     margin: 0 auto;
+  }
+
+  p {
+    margin-right: 0;
+  }
+
+  p,
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .about .but-link,
+  .camera-info,
+  .social-media-icon i {
+    margin: 30px auto;
+    display: block;
   }
 }
