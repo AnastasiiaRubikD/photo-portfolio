@@ -113,6 +113,9 @@ h1 {
   letter-spacing: 2.8px;
 }
 
+.social-media-icon a {
+  text-decoration: none;
+}
 .social-media-icon i {
   color: #ffffff;
   font-size: 25px;
@@ -161,7 +164,7 @@ h1 {
   }
   .about .but-link,
   .camera-info,
-  .social-media-icon i {
+  .social-media-icon a {
     margin: 30px auto;
     display: block;
   }
