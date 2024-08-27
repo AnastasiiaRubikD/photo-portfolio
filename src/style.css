@@ -40,10 +40,10 @@ li {
   font-size: 16px;
   line-height: 29px;
 }
-nav img {
+nav img,
+footer img {
   display: inline;
   margin: 0;
-  height: 1px;
 }
 nav a {
   text-decoration: none;
@@ -120,6 +120,8 @@ h1 {
   color: #ffffff;
   font-size: 25px;
   padding: 5px 15px;
+}
+.about .social-media-icon i {
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -134,6 +136,21 @@ h1 {
 .camera-info img {
   display: inline;
   padding: 10px 10px 10px 0px;
+}
+footer {
+  padding: 30px;
+  background-color: #2d2727;
+}
+footer .social-media-icon {
+  display: inline;
+}
+footer span {
+  color: #ffffff;
+}
+.contact {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -164,7 +181,7 @@ h1 {
   }
   .about .but-link,
   .camera-info,
-  .social-media-icon a {
+  .about .social-media-icon a {
     margin: 30px auto;
     display: block;
   }
